@@ -1,0 +1,109 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+.background{
+    background-image: url(AI-CP.jpg); 
+    background-size: 100% 110%;
+	width: 100%;
+	height: 100vh;
+
+} 
+.text{
+	width: 100%;
+	margin-top: 185px;
+	text-transform: uppercase;
+	text-align: center;
+	color:white;
+} 
+.text h1{
+	font-size:62px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:14px 0px;
+}
+
+.text h3{
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.text h6{
+    font-style: italic;
+    margin-top: 100px; 
+    font-size: 20px;
+}
+.right{
+	width:70%;
+	height: 100px;
+	float: right;
+/*	background-color: red; */
+} 
+right h4{
+    font-size: 14px;
+}
+.right ul{
+	margin-left: 15px;
+}
+
+.right ul li {
+	font-family: 'Montserrat', sans-serif;
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color:white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 30px;
+	text-transform: uppercase;
+
+}  
+.right ul li a {
+    color: white; 
+    text-decoration: none;
+}
+#fisrtlist{
+	color: white;
+} 
+.right ul li:hover{
+	color:teal;
+} 
+.left h3{
+    color: white;
+} 
+.menubar{
+
+	width: 100%;
+	height: 100px;
+    background-color: rgba(10, 147, 165, 0.5);
+    position: relative;
+}
+
+.left{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+/*	background-color: yellow;*/
+}
+
+.left h3{
+	padding-left: 20px;
+	font-weight: bold;
+	color: white;
+	font-size: 15.7px;
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+#button1{
+	background-color: white;
+	border: none;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 5px;
+	border: 3px solid white;
+	margin-bottom: 10px;
+}

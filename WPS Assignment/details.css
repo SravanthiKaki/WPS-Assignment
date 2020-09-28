@@ -1,0 +1,39 @@
+.box h2{
+    color: #fff;
+    background: #03a9f4;
+    padding:10px 20px;
+    font-size: 20px; 
+    font-weight: 700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+    margin-left: 480px;
+    margin-right: 480px;
+
+
+} 
+.box ul li{
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transition: transform 0.5s; 
+    margin-left: 0px; 
+    margin-right: 300px; 
+    width:44%
+} 
+.box ul li:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    background: #25bcff; 
+    box-shadow: 0 5px 25px rgba(0,0,0,.2); 
+    color: #fff;
+}
+.remain h2{
+    font-size: 30px;
+    text-align: center;
+}
+.remain p{
+    font-size: 22px; 
+    padding:15px
+}
+.remain h4{
+    font-size: 20px;
+    padding:15px;
+} 
